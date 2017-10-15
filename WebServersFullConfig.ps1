@@ -30,15 +30,15 @@ Configuration WebServersConfig
             Name = 'Telnet-Client'
         }
 
-        Registry RegistryExample
+        Registry RegistryLegalNoticeCaption
         {
             Ensure      = "Present"  # You can also set Ensure to "Absent"
             Key         = "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\Policies\System"
-            ValueName   = "legalnotiecaption"
+            ValueName   = "legalnoticecaption"
             ValueData   = "Notice to All Users (Authorized or Unauthorized)."
         }
 
-        Registry RegistryExample
+        Registry RegistryLegalNoticeText
         {
             Ensure      = "Present"  # You can also set Ensure to "Absent"
             Key         = "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\Policies\System"
