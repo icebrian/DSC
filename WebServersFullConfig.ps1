@@ -33,7 +33,7 @@ Configuration WebServersFullConfig
         Registry RegistryLegalNoticeCaption
         {
             Ensure      = "Present"  # You can also set Ensure to "Absent"
-            Key         = "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\Policies\System"
+            Key         = "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System"
             ValueName   = "legalnoticecaption"
             ValueData   = "Notice to All Users (Authorized or Unauthorized)."
         }
@@ -41,7 +41,7 @@ Configuration WebServersFullConfig
         Registry RegistryLegalNoticeText
         {
             Ensure      = "Present"  # You can also set Ensure to "Absent"
-            Key         = "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\Policies\System"
+            Key         = "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System"
             ValueName   = "legalnoticetext"
             ValueData   = "This computer system is for authorized use only. Users have no explicit or implicit expectation of privacy."
         }
