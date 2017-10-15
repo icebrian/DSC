@@ -1,4 +1,4 @@
-Configuration WebServersConfig
+Configuration WebServersFullConfig
 {
     Import-DscResource -Module cChoco
 	Node ("localhost")
