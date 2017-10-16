@@ -1,8 +1,8 @@
 Configuration WebServersFullConfig
 {
     Import-DscResource -Module cChoco
-	Node ("localhost")
-	{
+    Node ("localhost")
+    {
         #Install the IIS Role
         WindowsFeature IIS
         {
